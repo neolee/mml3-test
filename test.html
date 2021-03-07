@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testing</title>
+</head>
+
+<body>
+  <p>Testing MathML:</p>
+
+  <p><math mode="display">
+    <mtable>
+      <mtr>
+        <mtd style="text-align:right">
+          <mi>f</mi>
+          <mfenced>
+            <mi>x</mi>
+          </mfenced>
+          <mo>&nbsp;</mo>
+          <mo>=</mo>
+        </mtd>
+        <mtd style="text-align:left">
+          <mstyle displaystyle="true">
+            <mi>f</mi>
+            <mfenced>
+              <msub>
+                <mi>x</mi>
+                <mn>0</mn>
+              </msub>
+            </mfenced>
+            <mo>+</mo>
+            <msup>
+              <mi>f</mi>
+              <mo>&prime;</mo>
+            </msup>
+            <mfenced>
+              <msub>
+                <mi>x</mi>
+                <mn>0</mn>
+              </msub>
+            </mfenced>
+            <mo>+</mo>
+            <mfrac>
+              <mrow>
+                <msup>
+                  <mi>f</mi>
+                  <mrow>
+                    <mo>&prime;</mo>
+                    <mo>&prime;</mo>
+                  </mrow>
+                </msup>
+                <mfenced>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>0</mn>
+                  </msub>
+                </mfenced>
+              </mrow>
+              <mn>2</mn>
+            </mfrac>
+            <msup>
+              <mfenced>
+                <mrow>
+                  <mi>x</mi>
+                  <mo>-</mo>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>0</mn>
+                  </msub>
+                </mrow>
+              </mfenced>
+              <mn>2</mn>
+            </msup>
+          </mstyle>
+        </mtd>
+      </mtr>
+      <mtr>
+        <mtd style="text-align:right">
+          <mo>=</mo>
+        </mtd>
+        <mtd style="text-align:left">
+          <mstyle displaystyle="true">
+            <munderover>
+              <mo>&sum;</mo>
+              <mrow>
+                <mi>n</mi>
+                <mo>=</mo>
+                <mn>0</mn>
+              </mrow>
+              <mo>&infin;</mo>
+            </munderover>
+            <mfrac>
+              <mrow>
+                <msup>
+                  <mi>f</mi>
+                  <mrow>
+                    <mfenced>
+                      <mi>n</mi>
+                    </mfenced>
+                </msup>
+                <mfenced>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>0</mn>
+                  </msub>
+                </mfenced>
+              </mrow>
+              <mrow>
+                <mi>n</mi>
+                <mo>!</mo>
+              </mrow>
+            </mfrac>
+            <msup>
+              <mfenced>
+                <mrow>
+                  <mi>x</mi>
+                  <mo>-</mo>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>0</mn>
+                  </msub>
+                </mrow>
+              </mfenced>
+              <mi>n</mi>
+            </msup>
+          </mstyle>
+        </mtd>
+      </mtr>
+    </mtable>
+  </math></p>
+
+  <p><math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mstack charalign="center" stackalign="right">
+      <msrow>
+        <mn>2</mn>
+        <mn>3</mn>
+      </msrow>
+      <msrow>
+        <mo>+</mo>
+        <mn>3</mn>
+        <mn>4</mn>
+      </msrow>
+      <msline />
+      <msrow>
+        <mn>5</mn>
+        <mn>7</mn>
+      </msrow>
+    </mstack>
+  </math>
+
+  <p><math>
+    <mlongdiv longdivstyle="lefttop">
+      <mn> 3 </mn>
+      <mn> 435.3</mn>
+      <mn> 1306</mn>
+      <msgroup position="2" shift="-1">
+        <msgroup>
+          <mn> 12</mn>
+          <msline length="2"/>
+        </msgroup>
+        <msgroup>
+          <mn> 10</mn>
+          <mn> 9</mn>
+          <msline length="2"/>
+        </msgroup>
+        <msgroup>
+          <mn> 16</mn>
+          <mn> 15</mn>
+          <msline length="2"/>
+          <mn> 1.0</mn>           <!-- aligns on '.', not the right edge ('0') -->
+        </msgroup>
+        <msgroup position='-1'>   <!-- extra shift to move to the right of the "." -->
+           <mn> 9</mn>
+          <msline length="3"/>
+          <mn> 1</mn>
+        </msgroup>
+      </msgroup>
+    </mlongdiv>
+  </math></p>
+
+</body>
+
+</html>
