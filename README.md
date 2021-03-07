@@ -14,11 +14,20 @@
 > 
 > *from MathJax [official documents](http://docs.mathjax.org/en/latest/input/mathml.html#supported-mathml-tags)*
 
-See: [test-mathjax.html](test-mathjax.html)
+See in any browsers: [test-mathjax.html](test-mathjax.html)
+
+![In any browsers with MathJax 2.x and mml3 extension](screens/any-browsers-with-mathjax2+mml3ext.png)
 
 ## Browsers
 
 > - Chrome doesn't have any MathML native support.
-> - Firefox and Safari have limited support for MathML, but most MML3 features not included.
+> - Firefox has limited support for MathML, but most MML3 features not included.
+> - Safari has limited support for MathML, but most MML3 features not included.
 
-See: [test.html](test.html)
+See in Firefox: [test.html](test.html)
+
+![In Firefox native](screens/firefox-native.png)
+
+See in Safari: [test.html](test.html)
+
+![In Safari native](screens/safari-native.png)
