@@ -1,6 +1,6 @@
 # Simple Test for MML3 Support
 
-## MathJax
+## MathJax Support
 
 > MathJax supports the MathML3.0 mathematics tags, with some limitations. The MathML support is still under active development, so some tags are not yet implemented, and some features are not fully developed, but are coming.
 > 
@@ -18,7 +18,7 @@ See in any browsers: [test-mathjax.html](test-mathjax.html)
 
 ![In any browsers with MathJax 2.x and mml3 extension](screens/any-browsers-with-mathjax2+mml3ext.png)
 
-## Browsers
+## Browsers' Native Support
 
 > - Chrome doesn't have any MathML native support.
 > - Firefox has limited support for MathML, but most MML3 features not included.
