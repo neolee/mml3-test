@@ -1,5 +1,11 @@
 # Simple Test for MML3 Support
 
+## Verdicts
+
+*DO NOT* use MathML 3 features, at least for now.
+
+See below for details.
+
 ## MathJax Support
 
 > MathJax supports the MathML3.0 mathematics tags, with some limitations. The MathML support is still under active development, so some tags are not yet implemented, and some features are not fully developed, but are coming.
